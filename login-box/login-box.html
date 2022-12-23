@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>work easy</title>
+
+                    <!---- script tag start--->
+
+     <script langauge="javascript">
+      
+    function validpassword()
+    {
+      var password= document.myform.pass1.value;
+      var cpassword= document.myform.pass2.value;
+      if (password.length<6){
+        alert("pleas enter minumam 6 digis");
+        return false;
+      }
+      if(password==cpassword)
+      {
+        return true;
+      }
+      else{
+        alert("plase enter give same password");
+        return false;
+      }
+    }
+     </script>
+
+
+
+                <!--css style link add....... -->
+     <link rel="stylesheet" href="demo.css">
+             <!---icons in fontawessome add.....-->
+     <script src="https://kit.fontawesome.com/3024ac2583.js" crossorigin="anonymous"></script>
+</head>
+
+                    <!-----body start...-->
+<body>
+    <section>
+<div class="main">
+    <div class="navbar">
+        <h1>Raj Edits<i class="fa-brands fa-github raj"></i></h1>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="content.html">SERVICE</a></li>
+                <li><a href="#">DISIN</a></li>
+            </ul>
+        </div>
+        <div class="srh">
+            <input  class="srhh" type="text" list="page" placeholder="type to text">
+            <datalist id="page">
+                <option value="home"></option>
+                <option value="about"></option>
+                <option value="service"></option>
+                <option value="disin"></option>
+            </datalist>
+            <button class="btn"><a href="#">srearch</a></button>
+        </div>
+        </div>
+        <div class="pre">
+            <h1>WebDesign&<span class="col">Devalopment</span></h1>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet. <br>Web development can range from developing a <br>simple single static page of plain text to complex web applications, electronic <br>businesses, and social network services. Wikipedia</p>
+        </div>
+                       <!------- form box start....-->
+
+        <div class="form">
+            <form name="myform" onsubmit="return validpassword()" method="post" action="file:///C:/Users/rajua/OneDrive/Desktop/Ecomars%20project/index.html">
+      
+            <h1>Login Here</h1>
+            <input type="text" name="pass1" value="" placeholder="Enter your email"><br>
+            <input type="password" name="pass2" value="" placeholder="Enter your password"><br>
+            <button class="btnn" onclick="raj()">Login</button><br>
+            <p id="one">Don't have an account</p>
+            <p id="two"><a href="#" onclick="lalli()">sign in</a></p>
+                       <!----- icon symbles....-->
+
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook rajj"></i></a>
+           <a href="https://twitter.com/?lang=en-in" ><i class="fa-brands fa-twitter rajj"></i></a>
+           <a href="https://www.instagram.com/" ><i class="fa-brands fa-instagram rajj"></i></a>
+            <a href= "https://www.youtube.com/"><i class="fa-brands fa-youtube rajj"></i></a>
+            </form>
+
+        </div>
+
+    </div>
+    
+</div>
+
+</div>
+
+</section>
+
+                              <!------course---------
+<section class="course">
+    <h1> course we offers</h1>
+    <p class="pp">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>intermediate</h3>
+        <p class="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Quisquam inventore consequuntur at natus minima nostrum iure
+             a suscipit eum similique, esse nulla, 
+            necessitatibus debitis eos sunt, soluta unde quaerat neque!</p>
+
+    </div>
+    <div class="course-col">
+        <h3>Graduation</h3>
+        <p class="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Quisquam inventore consequuntur at natus minima nostrum iure
+             a suscipit eum similique, esse nulla, 
+            necessitatibus debitis eos sunt, soluta unde quaerat neque!</p>
+
+    </div>
+    <div class="course-col">
+        <h3>post Graduation</h3>
+        <p class="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Quisquam inventore consequuntur at natus minima nostrum iure
+             a suscipit eum similique, esse nulla, 
+            necessitatibus debitis eos sunt, soluta unde quaerat neque!</p>
+
+    </div>
+
+</div>
+</section>
+
+                               ------campus-------
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p class="pp">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="bul1.jpg" width="300px" height="400px">
+            <div class="layer">
+                <h3>London</h3>
+
+            </div>
+
+        </div>
+            <div class="campus-col">
+                <img src="bul1.jpg" width="300px" height="400px">
+                
+            </div>
+            <div class="campus-col">
+                <img src="bul1.jpg" width="300px" height="400px">
+                
+            </div>
+    </div>
+   
+</section>-->
+
+</body>
+
+</html>
