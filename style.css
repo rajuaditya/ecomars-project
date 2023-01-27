@@ -37,6 +37,10 @@
     color: #000000;
     font-size: 24px;
     font-weight: 900px;
+}#onee{
+    color: #000000;
+    font-size: 24px;
+    font-weight: 900px;
 }
  #two{
     color: rgb(0, 0, 0);
@@ -416,10 +420,11 @@ ul li a i{
         padding: 10% 20%;
     }.imgs-border{
         width: auto;
+        border: none;
         
     }#big-Img{
         width: 350px;
-    }#one{
+    }#onee{
         display: none;
     }
 }
@@ -431,7 +436,7 @@ ul li a i{
    
 }.imgs-border{
     width: 33%;
-    border: 3px solid #00fff2;
+    border: 1px solid #0000002c;
 }.small-group{
     display: flex;
     justify-content: space-between;
