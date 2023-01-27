@@ -44,44 +44,26 @@ h1{
 
     /*--------------menu bar--------------*/
 .manu{
-    width: 400px;
-    padding-left: 100px;
-    height: 40px;
-    
-
-}
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    padding-left: 20%;
-}ul li{
-    list-style: none;
-    margin-left: 80px;
-    margin-top: 20px;
-    font-size: 14px;
-}
-ul li::after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: #f33446;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-ul li:hover::after{
     width: 100%;
+    height: 40px;
 }
-
-ul li a{
+.manu ul{
+    display: flex;
+    margin-left: 20%;
+} .manu ul li{
+    list-style: none;
+    font-size: 14px;
+    margin-left: 10%;
+} 
+.manu ul li a{
+    list-style-type: none;
     text-decoration: none;
     color: white;
     font-family: Arial;
     font-weight: bold;
     transition:0.4s ease-in-out;
 }
-ul li a:hover{
+.manu ul li a:hover{
     color:orangered;
 }
 
@@ -89,8 +71,8 @@ ul li a:hover{
 .srh{
     width:300px;
     float: right;
-    margin-right: 130px;
-    
+    margin-right: 10%;
+margin-top: -60px;    
 }
 .srhh{
     font-family: arial;
@@ -159,10 +141,10 @@ p{
     background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top:200px;
-    left:70%;
+    left:60%;
     border-radius: 15px;
     padding: 25px;
-    overflow: auto;
+    overflow: hidden;
     text-align: center;
     padding-right: 10px;
 
@@ -246,57 +228,4 @@ p{
     line-height: 22px;
    padding-top: 10px;
     font-weight: 600;
-}
-.course{
-    width: 80%;
-    text-align:  center;
-    padding-top: 100px;
-    margin: auto;
-}
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-.course-col{
-    flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-
-}
-h3{
-    text-decoration:underline                                                              ;
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0px;
-}
-.course-col:hover{
-   box-shadow: 0 0 20px 0px rgba(0,0,0,0.4)
-}
-@media(max-width:700px){
-    .row{
-        flex-direction: column;
-    }
-}
-.campus{
-    width: 80%;
-    text-align:  center;
-    padding-top: 50px;
-    margin: auto;
-    
-}.campus-col{
-    flex-basis: 34%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-   
-}.campus-col img{
-    border-radius: 10px;
-    cursor: pointer;
-}
-.campus-col img:hover{
-    color: #f33446;
 }
