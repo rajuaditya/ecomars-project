@@ -411,6 +411,16 @@ ul li a i{
         justify-content: center;
         text-align: center;
         color: #edf7f6;
+    }.pro-details{
+        margin-top: 300px;
+        padding: 10% 20%;
+    }.imgs-border{
+        width: auto;
+        
+    }#big-Img{
+        width: 350px;
+    }#one{
+        display: none;
     }
 }
 

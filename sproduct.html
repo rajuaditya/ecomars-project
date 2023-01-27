@@ -28,6 +28,8 @@
                          <li><a href="login-box/login-box.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
                      </ul><hr color="yellow">
                  </div>
+            <div class="hambarger"><i class="fa-solid fa-bars"></i></div>
+
              </div>
          </section>
          <section class="single-product" id="main-product">
@@ -42,8 +44,9 @@
                     <img src="cloths/st4.jpg" alt="product"  width="150" height="150" class="small-Img-1"/>
                 </div>
             </div>
-            
+           
             </div>
+
             <div class="pro-details">
                 <h6>Home / T-Shirt</h6>
                 <h4>Mwns's Fashion T-Shirt</h4>
@@ -222,6 +225,14 @@
                bigImg.src =smallImg[2].src;
             }
          </script>
+         <script>
+            hambarger = document.querySelector(".hambarger");
+            
+            hambarger.onclick= function(){ 
+                menu =document.querySelector(".menu");
+                menu.classList.toggle("active");
+            }
+        </script>
     
 </body>
 </html>
