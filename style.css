@@ -175,6 +175,18 @@ ul li a i{
     font-weight: lighter;
 
 }
+#arrow{
+    background-color: #00000019;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    position: absolute;
+    top: 190%;
+    font-size: 40px;
+    animation-name: myfun;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 .box-1{
     width: 280px;
     height: 400px;

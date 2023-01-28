@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive enimated website</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    
+    <script src="https://kit.fontawesome.com/3024ac2583.js" crossorigin="anonymous"></script>
+
+     <!----------------style sheet strt---------->
+     <style>
+       *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: 'Times New Roman';
+    text-transform: capitalize;
+    transition: all 0.3 linear;
+    
+}      /*----container class----*/
+.container-about{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}   #about-img{
+  opacity: 0.9;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}#about-img-2{
+  position: absolute;
+  top: 2%;
+  left: 70%;
+
+}#about-img-3{
+  position: absolute;
+  top: 53%;
+  left: 70%;
+}
+
+.about-details{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}.about-details h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+#back{
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}#prev{
+  position: absolute;
+  top: 90%;
+  left: 35%;
+}
+@media screen and (max-width:799px){
+  .container-about{
+    
+    width:130vw;
+    height: 100vh;
+    background-color: aliceblue;
+  }  #about-img{
+    width: 100%;
+  opacity: 0.9;
+  position: absolute;
+  top: 0%;
+  left: 30%;
+}
+  .about-details{
+    width: 100%;
+    height: 100%;
+  position: absolute;
+  top: 70%;
+  left: 10%px;
+}#about-img-2{
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 103%;
+  left: 20%;
+}#about-img-3{
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 140%;
+  left: 20%;
+}#back{
+  position: absolute;
+  top: 180%;
+  left: 40%;
+}#prev{
+  position: absolute;
+  top: 180%;
+  left: 70%;
+}
+}
+   /* avery box -------*/
+
+
+     </style>
+
+</head>
+<body>
+    <!-------------------------body start------------>
+    
+    <div class="container-about">
+      <div class="about-page">
+        <img src="png img/img3.png" id="about-img">
+      </div>
+      <div class="about-details">
+        <h1>Man's T-Shirt</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing<br>
+           elit. Id odit libero quam voluptates. Cum, voluptatibus.<br>
+           doloremque illo quam temporibus autem.</p><br>
+           <button class="btn btn-danger" onclick="window.location.href='sproduct.html';">Read More</button>
+      </div>
+      <div class="about-card">
+        <img src="cloths/st8.jpg" id="about-img-2" width="336" height="336">
+      </div>
+      <div class="about-card">
+        <img src="cloths/st4.jpg" id="about-img-3" width="336" height="336">
+      </div>
+      <button class="btn btn-primary" id="back" onclick="window.location.href='index.html';">Back</button>
+      <button class="btn btn-primary" id="prev">previous</button>
+        
+        
+    </div>
+    
+   
+   <!-----------------------------script tag start--------->
+
+     
+</body>
+</html>
